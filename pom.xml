@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.idega.block.platform</groupId>
+  <artifactId>com.idega.block.platform.super</artifactId>
+  <version>4.0.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <organization>
+    <name>idega software</name>
+    <url>http://www.idega.com/</url>
+  </organization>
+  <name>Base com.idega.block.platform Project</name>
+  <description>Parent of all com.idega.block.addon group modules</description>
+  
+  <!--
+  <scm>
+    <connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/</connection>
+    <developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/</developerConnection>
+  </scm>
+  -->
+  <scm>
+    <connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/</connection>
+    <developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/</developerConnection>
+  </scm>
+  
+  <distributionManagement>
+    <repository>
+      <id>idega1</id>
+      <name>idega Maven2 Repository</name>
+	  <url>scp://repository.idega.com/var/www/webs/repository.idega.com/maven2</url>
+    </repository>
+    <site>
+      <id>idega1</id>
+      <name>idega Maven2 Documentation site</name>
+	  <url>scp://repository.idega.com/var/www/webs/developer.idega.com/bundles</url>
+    </site>
+  </distributionManagement>
+
+ <ciManagement>
+    <system>continuum</system>
+    <url>http://build.idega.is:8080/continuum</url>
+    <notifiers>
+      <notifier>
+        <type>mail</type>
+        <sendOnError>true</sendOnError>
+        <sendOnFailure>true</sendOnFailure>
+        <sendOnSuccess>true</sendOnSuccess>
+        <sendOnWarning>true</sendOnWarning>
+        <configuration><address>tryggvi@idega.com</address></configuration>
+      </notifier>
+    </notifiers>
+ </ciManagement>
+  
+  <modules>
+  	<module>com.idega.block.platform</module>
+  </modules>
+</project>

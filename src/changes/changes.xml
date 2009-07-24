@@ -1,0 +1,16 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0">
+  <properties>
+    <title>IdegaWeb Platform</title>
+    <author email='eiki@idega.com'>eiki</author>
+  </properties>
+  <body>
+    <release date='2009-03-10' description='4.1.1 release' version='4.1.1'>
+          <action type='add' dev='eiki'>The Minsk release, dwr 3, slide config changes among other 
+things</action>
+    </release>
+    <release date='2009-01-27' description='First release' version='4.1.0'>
+          <action type='add' dev='tryggvi'>First 4.1.x Release</action>
+    </release>
+  </body>
+</document>
+
