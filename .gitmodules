@@ -1,0 +1,90 @@
+[submodule "com.idega.block.process"]
+	path = com.idega.block.process
+	url = git@github.com:idega/com.idega.block.process.git
+[submodule "com.idega.block.rss"]
+	path = com.idega.block.rss
+	url = git@github.com:idega/com.idega.block.rss.git
+[submodule "com.idega.block.navigation"]
+	path = com.idega.block.navigation
+	url = git@github.com:idega/com.idega.block.navigation.git
+[submodule "com.idega.user"]
+	path = com.idega.user
+	url = git@github.com:idega/com.idega.user.git
+[submodule "com.idega.workspace"]
+	path = com.idega.workspace
+	url = git@github.com:idega/com.idega.workspace.git
+[submodule "org.apache.slide"]
+	path = org.apache.slide
+	url = git@github.com:idega/org.apache.slide.git
+[submodule "com.idega.setup"]
+	path = com.idega.setup
+	url = git@github.com:idega/com.idega.setup.git
+[submodule "com.idega.block.entity"]
+	path = com.idega.block.entity
+	url = git@github.com:idega/com.idega.block.entity.git
+[submodule "com.idega.block.process.webservice"]
+	path = com.idega.block.process.webservice
+	url = git@github.com:idega/com.idega.block.process.webservice.git
+[submodule "com.idega.graphics"]
+	path = com.idega.graphics
+	url = git@github.com:idega/com.idega.graphics.git
+[submodule "com.idega.builder"]
+	path = com.idega.builder
+	url = git@github.com:idega/com.idega.builder.git
+[submodule "com.idega.dwr"]
+	path = com.idega.dwr
+	url = git@github.com:idega/com.idega.dwr.git
+[submodule "com.idega.block.article"]
+	path = com.idega.block.article
+	url = git@github.com:idega/com.idega.block.article.git
+[submodule "com.idega.developer"]
+	path = com.idega.developer
+	url = git@github.com:idega/com.idega.developer.git
+[submodule "com.idega.slide"]
+	path = com.idega.slide
+	url = git@github.com:idega/com.idega.slide.git
+[submodule "com.idega.webface"]
+	path = com.idega.webface
+	url = git@github.com:idega/com.idega.webface.git
+[submodule "com.idega.block.web2.0"]
+	path = com.idega.block.web2.0
+	url = git@github.com:idega/com.idega.block.web2.0.git
+[submodule "com.idega.cxf"]
+	path = com.idega.cxf
+	url = git@github.com:idega/com.idega.cxf.git
+[submodule "org.apache.myfaces"]
+	path = org.apache.myfaces
+	url = git@github.com:idega/org.apache.myfaces.git
+[submodule "com.idega.block.login"]
+	path = com.idega.block.login
+	url = git@github.com:idega/com.idega.block.login.git
+[submodule "com.idega.content"]
+	path = com.idega.content
+	url = git@github.com:idega/com.idega.content.git
+[submodule "com.idega.hibernate"]
+	path = com.idega.hibernate
+	url = git@github.com:idega/com.idega.hibernate.git
+[submodule "com.idega.block.media"]
+	path = com.idega.block.media
+	url = git@github.com:idega/com.idega.block.media.git
+[submodule "com.idega.core"]
+	path = com.idega.core
+	url = git@github.com:idega/com.idega.core.git
+[submodule "com.idega.springframework"]
+	path = com.idega.springframework
+	url = git@github.com:idega/com.idega.springframework.git
+[submodule "com.idega.manager"]
+	path = com.idega.manager
+	url = git@github.com:idega/com.idega.manager.git
+[submodule "com.idega.faces"]
+	path = com.idega.faces
+	url = git@github.com:idega/com.idega.faces.git
+[submodule "com.idega.multidomain"]
+	path = com.idega.multidomain
+	url = git@github.com:idega/com.idega.multidomain.git
+[submodule "org.apache.axis"]
+	path = org.apache.axis
+	url = git@github.com:idega/org.apache.axis.git
+[submodule "com.idega.block.image"]
+	path = com.idega.block.image
+	url = git@github.com:idega/com.idega.block.image.git
