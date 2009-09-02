@@ -6,7 +6,7 @@
   <packaging>pom</packaging>
   <organization>
     <name>idega software</name>
-    <url>http://www.idega.com/</url>
+    <url>http://www.idega.org/</url>
   </organization>
   <name>Base com.idega.block.platform Project</name>
   <description>Parent of all com.idega.block.addon group modules</description>
