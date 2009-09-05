@@ -6,7 +6,7 @@
   <packaging>pom</packaging>
   <organization>
     <name>idega software</name>
-    <url>http://www.idega.com/</url>
+    <url>http://www.idega.org/</url>
   </organization>
   <name>Base com.idega.block.platform Project</name>
   <description>Parent of all com.idega.block.addon group modules</description>
@@ -76,16 +76,10 @@
       <url>http://repository.codehaus.org/</url>
     </repository>
     <repository>
-      <id>people.apache.org</id>
-      <name>apache.org Incubating Maven Repository</name>
-      <url>http://people.apache.org/repo/m2-incubating-repository/</url>
-    </repository>
-    <repository>
       <id>jboss</id>
       <name>Jboss.com repository</name>
       <url>http://repository.jboss.org/maven2/</url>
     </repository>
-    
     <repository>
       <id>spring</id>
       <name>Spring snapshot and unreleased repository</name>
@@ -110,7 +104,12 @@
       <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
     </repository>
     -->
-    
+    <repository>
+      <id>people.apache.org</id>
+      <name>apache.org Incubating Maven Repository</name>
+      <url>http://people.apache.org/repo/m2-incubating-repository/</url>
+    </repository>
+ 
   </repositories>
 
   <pluginRepositories>
@@ -478,7 +477,7 @@
 	    <!--<dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.cxf</artifactId>
-  		  <version>4.0.2-SNAPSHOT</version>
+  		  <version>4.1.3-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    -->
