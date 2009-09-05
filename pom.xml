@@ -114,6 +114,12 @@
   </repositories>
 
   <pluginRepositories>
+  	<pluginRepository>
+      <id>maven2</id>
+      <name>maven2 central plugin repository 2</name>
+      <url>http://repo2.maven.org/maven2/</url>
+      <!--snapshotPolicy>daily</snapshotPolicy-->
+    </pluginRepository>
     <pluginRepository>
       <id>idega1</id>
       <name>idega maven2 repository</name>
