@@ -45,19 +45,17 @@
   </modules>
   
   <repositories>
-	<repository>
+<!--    <repository>
       <id>idega1</id>
       <name>idega maven2 repository</name>
       <url>http://repository.idega.com/maven2/</url>
-      <!--snapshotPolicy>daily</snapshotPolicy-->
     </repository>
     <repository>
       <id>idega2</id>
       <name>idega public repository</name>
       <url>http://repository.idega.com/maven/</url>
-      <!--snapshotPolicy>daily</snapshotPolicy-->
       <layout>legacy</layout>
-    </repository>
+    </repository>-->
     <repository>
       <id>java.net</id>
       <name>Sun Java Net Maven 1 Repository</name>
