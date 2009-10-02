@@ -970,6 +970,9 @@
   </dependencyManagement>
   
   <properties>
+   
+   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   
     <!-- common used libraries versions. construct property as: <group id>-<artifact id>-version -->
     
     <!-- KEEP ALPHABETICAL ORDER PLS -->
