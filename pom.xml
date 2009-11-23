@@ -45,12 +45,6 @@
   </modules>
   
   <repositories>
-<!--<repository>
-      <id>idega2</id>
-      <name>idega public repository</name>
-      <url>http://repository.idega.com/maven/</url>
-      <layout>legacy</layout>
-    </repository>-->
     <repository>
       <id>java.net</id>
       <name>Sun Java Net Maven 1 Repository</name>
