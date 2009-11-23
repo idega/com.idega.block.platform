@@ -93,6 +93,12 @@
       <name>idega maven2 repository</name>
       <url>http://repository.idega.com/maven2/</url>
     </repository>
+    <repository>
+      <id>jahia</id>
+      <name>jahia maven2 repository</name>
+      <url>http://maven.jahia.org/maven2/</url>
+    </repository>
+
  
   </repositories>
 
