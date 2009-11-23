@@ -45,12 +45,7 @@
   </modules>
   
   <repositories>
-<!--    <repository>
-      <id>idega1</id>
-      <name>idega maven2 repository</name>
-      <url>http://repository.idega.com/maven2/</url>
-    </repository>
-    <repository>
+<!--<repository>
       <id>idega2</id>
       <name>idega public repository</name>
       <url>http://repository.idega.com/maven/</url>
@@ -94,18 +89,15 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-    
-    <!--  
-    <repository>
-      <id>ibiblio</id>
-      <name>Ibiblio maven2 repository</name>
-      <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
-    </repository>
-    -->
     <repository>
       <id>people.apache.org</id>
       <name>apache.org Incubating Maven Repository</name>
       <url>http://people.apache.org/repo/m2-incubating-repository/</url>
+    </repository>
+    <repository>
+      <id>idega1</id>
+      <name>idega maven2 repository</name>
+      <url>http://repository.idega.com/maven2/</url>
     </repository>
  
   </repositories>
