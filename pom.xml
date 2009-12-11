@@ -882,18 +882,6 @@
           </exclusions>
         </dependency>
         <dependency>
-	      <groupId>org.springframework</groupId>
-	      <artifactId>spring-test</artifactId>
-	      <version>${org.springframework-spring-test-version}</version>
-	      <type>jar</type>
-	      <exclusions>
-	            <exclusion>
-	              <groupId>junit</groupId>
-	              <artifactId>junit</artifactId>
-	            </exclusion>
-	          </exclusions>
-    </dependency>
-        <dependency>
           <groupId>commons-digester</groupId>
           <artifactId>commons-digester</artifactId>
           <version>${commons-digester-commons-digester-version}</version>
