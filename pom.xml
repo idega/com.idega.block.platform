@@ -73,17 +73,6 @@
       <url>https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo/</url>
     </repository>
     <repository>
-      <id>chiba</id>
-      <name>chiba</name>
-      <url>http://chibaxforms.org:8181/archiva/repository/chiba</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
       <id>people.apache.org</id>
       <name>apache.org Incubating Maven Repository</name>
       <url>http://people.apache.org/repo/m2-incubating-repository/</url>
@@ -109,6 +98,17 @@
 			<enabled>true</enabled>
 		</snapshots>
 	</repository>
+    <repository>
+      <id>chiba</id>
+      <name>chiba</name>
+      <url>http://chibaxforms.org:8181/archiva/repository/chiba</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <pluginRepositories>
