@@ -73,6 +73,11 @@
 			<enabled>true</enabled>
 		</snapshots>
 	</repository>
+	<repository>
+      <id>ibiblio</id>
+      <name>ibiblio repository</name>
+      <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+    </repository>
     <repository>
       <id>jboss</id>
       <name>Jboss.com repository</name>
@@ -197,7 +202,6 @@
       <type>jar</type>
       <scope>provided</scope>
     </dependency>
-  
     
     <!-- XML APIs start
     Xerces and Xalan both depend on the serializer jar that is shipped with Xalan (and has the same version).
@@ -1010,14 +1014,17 @@
     <itextpdf-itext-paulo-version>155</itextpdf-itext-paulo-version>
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
     <javax.annotation-jsr250-api-version>1.0</javax.annotation-jsr250-api-version>
+    <javax.jcr-jcr-version>2.0</javax.jcr-jcr-version>
     <javax.mail-mail-version>1.4.2</javax.mail-mail-version>
     <jaxen-jaxen-version>1.0-FCS</jaxen-jaxen-version>
     <jdom-jdom-version>1.0</jdom-jdom-version>
     <jug-jug-version>1.1.2</jug-jug-version>
     <junit-junit-version>4.4</junit-junit-version>
+    <lucene-lucene-core-version>2.4.1</lucene-lucene-core-version>
     <maven-wagon-http-lightweight-version>1.0-alpha-3</maven-wagon-http-lightweight-version>
     <net.sf.ehcache-ehcache-core-version>2.2.0</net.sf.ehcache-ehcache-core-version>
     <net.sf.ehcache-ehcache-web-version>2.0.2</net.sf.ehcache-ehcache-web-version>
+    <org.apache.poi-poi-version>3.6</org.apache.poi-poi-version>
     <org.apache.ws.commons.neethi-neethi-version>2.0</org.apache.ws.commons.neethi-neethi-version>
     <org.hibernate-hibernate-annotations-version>3.4.0.GA</org.hibernate-hibernate-annotations-version>
     <org.hibernate-hibernate-commons-annotations-version>3.3.0.ga</org.hibernate-hibernate-commons-annotations-version>
@@ -1025,7 +1032,7 @@
     <org.hibernate-hibernate-core-version>3.3.1.GA</org.hibernate-hibernate-core-version>
     <org.springframework-spring-version>2.5.6</org.springframework-spring-version>
     <org.springframework-spring-test-version>2.5.6</org.springframework-spring-test-version>
-    <poi-poi-version>2.5-final-20040428</poi-poi-version>
+    
     <stax-stax-api-version>1.0.1</stax-stax-api-version>
     <ujac-ujac-version>0.9.25</ujac-ujac-version>
     <wss4j-wss4j-version>1.5.1</wss4j-wss4j-version>
@@ -1038,4 +1045,3 @@
   </properties>
   
 </project>
-
