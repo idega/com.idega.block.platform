@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.idega.block.platform</groupId>
   <artifactId>com.idega.block.platform</artifactId>
-  <version>4.1.3-SNAPSHOT</version>
+  <version>5.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <organization>
     <name>idega software</name>
@@ -20,7 +20,6 @@
 	<module>org.apache.axis</module>
 	<module>org.apache.myfaces</module>
 	<module>com.idega.dwr</module>
-	<!--<module>/com.idega.cxf</module>-->
 	<module>com.idega.block.process</module>
 	<module>com.idega.block.process.webservice</module>
 	<module>com.idega.block.rss</module>
@@ -42,6 +41,7 @@
 	<module>com.idega.block.article</module>
 	<module>com.idega.user</module>
 	<module>com.idega.developer</module>
+	<module>com.idega.jackrabbit</module>
   </modules>
   
   <repositories>
@@ -437,92 +437,85 @@
 	   	<dependency>
 	      <groupId>com.idega.block.platform</groupId>
 	  	  <artifactId>com.idega.core</artifactId>
-	      <version>4.1.3-SNAPSHOT</version>
+	      <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
 	  	  <artifactId>com.idega.block.login</artifactId>
-	  	  <version>4.1.3-SNAPSHOT</version>
+	  	  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>org.apache.slide</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.slide</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.springframework</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>org.apache.axis</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>org.apache.myfaces</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.dwr</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
-	    <!--<dependency>
-	      <groupId>com.idega.block.platform</groupId>
-  		  <artifactId>com.idega.cxf</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
-	      <type>jar</type>
-	    </dependency>
-	    -->
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.process</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.process.webservice</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.rss</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.web2.0</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.manager</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.multidomain</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	      <exclusions>
 			<exclusion>
@@ -534,31 +527,31 @@
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.faces</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.webface</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   	      <artifactId>com.idega.workspace</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.setup</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.hibernate</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	      <exclusions>
             <exclusion>
@@ -570,63 +563,70 @@
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.graphics</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.content</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.builder</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.navigation</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.media</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.image</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.entity</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.block.article</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.user</artifactId>
-  		  <version>4.1.3-SNAPSHOT</version>
+  		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
   		  <artifactId>com.idega.developer</artifactId>
-  	 	  <version>4.1.3-SNAPSHOT</version>
+  	 	  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
+	    <dependency>
+	      <groupId>com.idega.block.platform</groupId>
+  		  <artifactId>com.idega.jackrabbit</artifactId>
+  	 	  <version>5.0.0-SNAPSHOT</version>
+	      <type>jar</type>
+	    </dependency>
+	    
         <!-- 3rd party libraries dependencies with exclusions -->
         <dependency>
           <groupId>commons-dbcp</groupId>
