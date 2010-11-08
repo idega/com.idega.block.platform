@@ -243,11 +243,22 @@
       <version>${xml-apis-xml-apis-version}</version>
       <type>jar</type>
     </dependency>
-   
    <!-- XML APIs end -->
    
+   <!-- These dependencies are required for ehCache -->
+   	<dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${org.slf4j-slf4j-api-version}</version>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+    	<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-jdk14</artifactId>
+        <version>${org.slf4j-slf4j-api-version}</version>
+      	<type>jar</type>
+    </dependency>
   </dependencies>
-
 
   <build>
   <!--nagEmailAddress>tryggvi@idega.com</nagEmailAddress-->
@@ -688,6 +699,14 @@
               <groupId>xerces</groupId>
               <artifactId>xercesImpl</artifactId>
             </exclusion>
+            <exclusion>
+          		<groupId>org.slf4j</groupId>
+      		    <artifactId>slf4j-api</artifactId>
+       		</exclusion>
+       		<exclusion>
+          		<groupId>org.slf4j</groupId>
+          		<artifactId>slf4j-log4j12</artifactId>
+        	</exclusion>
           </exclusions>
         </dependency>
         <dependency>
@@ -695,6 +714,16 @@
           <artifactId>ehcache-web</artifactId>
           <version>${net.sf.ehcache-ehcache-web-version}</version>
           <type>jar</type>
+          <exclusions>
+          	<exclusion>
+          		<groupId>org.slf4j</groupId>
+      		    <artifactId>slf4j-api</artifactId>
+       		</exclusion>
+       		<exclusion>
+          		<groupId>org.slf4j</groupId>
+          		<artifactId>slf4j-log4j12</artifactId>
+        	</exclusion>
+          </exclusions>
         </dependency>
         <dependency>
           <groupId>jaxen</groupId>
@@ -767,13 +796,13 @@
               <artifactId>xml-apis</artifactId>
             </exclusion>
             <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-api</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-log4j12</artifactId>
-        </exclusion>
+          		<groupId>org.slf4j</groupId>
+      		    <artifactId>slf4j-api</artifactId>
+       		</exclusion>
+       		<exclusion>
+          		<groupId>org.slf4j</groupId>
+          		<artifactId>slf4j-log4j12</artifactId>
+        	</exclusion>
           </exclusions>
         </dependency>
         <dependency>
@@ -795,9 +824,13 @@
               <artifactId>hibernate-core</artifactId>
             </exclusion>
             <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-api</artifactId>
-        </exclusion>
+          		<groupId>org.slf4j</groupId>
+      		    <artifactId>slf4j-api</artifactId>
+       		</exclusion>
+       		<exclusion>
+          		<groupId>org.slf4j</groupId>
+          		<artifactId>slf4j-log4j12</artifactId>
+        	</exclusion>
           </exclusions>
         </dependency>
         <dependency>
@@ -847,9 +880,13 @@
               <artifactId>hibernate-annotations</artifactId>
             </exclusion>
             <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-api</artifactId>
-        </exclusion>
+          		<groupId>org.slf4j</groupId>
+      		    <artifactId>slf4j-api</artifactId>
+       		</exclusion>
+       		<exclusion>
+          		<groupId>org.slf4j</groupId>
+          		<artifactId>slf4j-log4j12</artifactId>
+        	</exclusion>
           </exclusions>
         </dependency>
         <dependency>
@@ -1040,9 +1077,9 @@
     <org.hibernate-hibernate-commons-annotations-version>3.3.0.ga</org.hibernate-hibernate-commons-annotations-version>
     <org.hibernate-hibernate-entitymanager-version>3.4.0.GA</org.hibernate-hibernate-entitymanager-version>
     <org.hibernate-hibernate-core-version>3.3.1.GA</org.hibernate-hibernate-core-version>
+    <org.slf4j-slf4j-api-version>1.5.11</org.slf4j-slf4j-api-version>
     <org.springframework-spring-version>2.5.6</org.springframework-spring-version>
     <org.springframework-spring-test-version>2.5.6</org.springframework-spring-test-version>
-    
     <stax-stax-api-version>1.0.1</stax-stax-api-version>
     <ujac-ujac-version>0.9.25</ujac-ujac-version>
     <wss4j-wss4j-version>1.5.1</wss4j-wss4j-version>
