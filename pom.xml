@@ -1011,6 +1011,36 @@
             <version>${antlr-antlr-version}</version>
             <type>jar</type>
         </dependency>
+		<dependency>
+		    <groupId>net.sf.ujac</groupId>
+		    <artifactId>ujac</artifactId>
+		    <version>${ujac-ujac-version}</version>
+		    <type>jar</type>
+		</dependency>
+	    <dependency>
+	      <groupId>itextpdf</groupId>
+	      <artifactId>itext-paulo</artifactId>
+	      <version>${itextpdf-itext-paulo-version}</version>
+	      <type>jar</type>
+	    </dependency>
+	    <dependency>
+	      <groupId>itext</groupId>
+	      <artifactId>itext-xml</artifactId>
+	      <version>${itext-itext-xml-version}</version>
+	      <type>jar</type>
+	    </dependency>
+	    <dependency>
+	      <groupId>javax.mail</groupId>
+	      <artifactId>mail</artifactId>
+	      <version>${javax.mail-version}</version>
+	      <type>jar</type>
+	    </dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${org.apache.poi-poi-version}</version>
+			<type>jar</type>
+		</dependency>
         <dependency>
 	      <groupId>org.springframework</groupId>
 	      <artifactId>spring-test</artifactId>
@@ -1064,7 +1094,7 @@
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
     <javax.annotation-jsr250-api-version>1.0</javax.annotation-jsr250-api-version>
     <javax.jcr-jcr-version>2.0</javax.jcr-jcr-version>
-    <javax.mail-mail-version>1.4.2</javax.mail-mail-version>
+    <javax.mail-version>1.4.2</javax.mail-version>
     <jaxen-jaxen-version>1.0-FCS</jaxen-jaxen-version>
     <jdom-jdom-version>1.0</jdom-jdom-version>
     <jug-jug-version>1.1.2</jug-jug-version>
@@ -1083,7 +1113,7 @@
     <org.springframework-spring-version>2.5.6</org.springframework-spring-version>
     <org.springframework-spring-test-version>2.5.6</org.springframework-spring-test-version>
     <stax-stax-api-version>1.0.1</stax-stax-api-version>
-    <ujac-ujac-version>0.9.25</ujac-ujac-version>
+    <ujac-ujac-version>1.0.0</ujac-ujac-version>
     <wss4j-wss4j-version>1.5.9</wss4j-wss4j-version>
     <xerces-xercesImpl-version>2.9.1</xerces-xercesImpl-version>
     <xml-apis-xml-apis-version>1.3.04</xml-apis-xml-apis-version>
