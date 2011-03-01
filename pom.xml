@@ -1064,8 +1064,8 @@
     
     <!-- KEEP ALPHABETICAL ORDER PLS -->
     <antlr-antlr-version>2.7.6</antlr-antlr-version>
-    <axis-axis-version>1.3</axis-axis-version>
-    <axis-axis-jaxrpc-version>1.3</axis-axis-jaxrpc-version>
+    <axis-axis-version>1.4</axis-axis-version>
+    <axis-axis-jaxrpc-version>1.4</axis-axis-jaxrpc-version>
     <batik-batik-rasterizer-version>1.6</batik-batik-rasterizer-version>
     <org.beanshell-bsh-version>2.0b4</org.beanshell-bsh-version>
     <commons-beanutils-commons-beanutils-version>1.7.0</commons-beanutils-commons-beanutils-version>
