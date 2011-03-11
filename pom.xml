@@ -45,13 +45,13 @@
   </modules>
   
   <repositories>
-    <repository>
+    <!--<repository>
       <id>java.net</id>
       <name>Sun Java Net Maven 1 Repository</name>
       <url>http://download.java.net/maven/1/</url>
-      <!--snapshotPolicy>daily</snapshotPolicy-->
+      <snapshotPolicy>daily</snapshotPolicy>
       <layout>legacy</layout>
-    </repository>
+    </repository>-->
     <repository>
       <id>java.net2</id>
       <name>Sun Java Net Maven 2 Repository</name>
