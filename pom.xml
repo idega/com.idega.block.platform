@@ -81,7 +81,7 @@
     <repository>
       <id>jboss</id>
       <name>Jboss.com repository</name>
-      <url>http://repository.jboss.org/maven2/</url>
+      <url>http://repository.jboss.org/</url>
     </repository>
     <repository>
       <id>spring</id>
