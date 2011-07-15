@@ -13,9 +13,6 @@
 [submodule "com.idega.workspace"]
 	path = com.idega.workspace
 	url = git@github.com:idega/com.idega.workspace.git
-[submodule "org.apache.slide"]
-	path = org.apache.slide
-	url = git@github.com:idega/org.apache.slide.git
 [submodule "com.idega.setup"]
 	path = com.idega.setup
 	url = git@github.com:idega/com.idega.setup.git
@@ -40,9 +37,6 @@
 [submodule "com.idega.developer"]
 	path = com.idega.developer
 	url = git@github.com:idega/com.idega.developer.git
-[submodule "com.idega.slide"]
-	path = com.idega.slide
-	url = git@github.com:idega/com.idega.slide.git
 [submodule "com.idega.webface"]
 	path = com.idega.webface
 	url = git@github.com:idega/com.idega.webface.git
