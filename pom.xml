@@ -45,13 +45,6 @@
   </modules>
   
   <repositories>
-    <!--<repository>
-      <id>java.net</id>
-      <name>Sun Java Net Maven 1 Repository</name>
-      <url>http://download.java.net/maven/1/</url>
-      <snapshotPolicy>daily</snapshotPolicy>
-      <layout>legacy</layout>
-    </repository>-->
     <repository>
       <id>java.net2</id>
       <name>Sun Java Net Maven 2 Repository</name>
@@ -88,17 +81,6 @@
       <name>Spring snapshot and unreleased repository</name>
       <url>https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo/</url>
     </repository>
-    <!--<repository>
-      <id>chiba</id>
-      <name>chiba</name>
-      <url>http://chibaxforms.org:8181/archiva/repository/chiba</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>-->
     <repository>
       <id>people.apache.org</id>
       <name>apache.org Incubating Maven Repository</name>
@@ -129,6 +111,27 @@
           <enabled>false</enabled>
         </snapshots>        
      </repository>
+     <repository>
+        <id>Google Code</id>
+        <url>http://code.google.com/p/google-maven-repository/</url>
+        <releases>
+           <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>        
+     </repository>
+     <repository>
+      <id>modularity-releases</id>
+      <name>Modularity Releases Repository</name>
+      <url>http://m2.modularity.net.au/releases</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -1101,7 +1104,7 @@
     <junit-junit-version>4.4</junit-junit-version>
     <lucene-lucene-core-version>2.4.1</lucene-lucene-core-version>
     <maven-wagon-http-lightweight-version>1.0-alpha-3</maven-wagon-http-lightweight-version>
-    <net.sf.ehcache-ehcache-core-version>2.4.4</net.sf.ehcache-ehcache-core-version>
+    <net.sf.ehcache-ehcache-core-version>2.4.5</net.sf.ehcache-ehcache-core-version>
     <net.sf.ehcache-ehcache-web-version>2.0.3</net.sf.ehcache-ehcache-web-version>
     <org.apache.poi-poi-version>3.7</org.apache.poi-poi-version>
     <org.apache.ws.commons.neethi-neethi-version>2.0</org.apache.ws.commons.neethi-neethi-version>
