@@ -1001,7 +1001,7 @@
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
     <javax.annotation-jsr250-api-version>1.0</javax.annotation-jsr250-api-version>
     <javax.jcr-jcr-version>2.0</javax.jcr-jcr-version>
-    <javax.mail-mail-version>1.4.2</javax.mail-mail-version>
+    <javax.mail-version>1.4.2</javax.mail-version>
     <jaxen-jaxen-version>1.0-FCS</jaxen-jaxen-version>
     <jdom-jdom-version>1.0</jdom-jdom-version>
     <jug-jug-version>1.1.2</jug-jug-version>
