@@ -49,9 +49,6 @@
 [submodule "com.idega.block.web2.0"]
 	path = com.idega.block.web2.0
 	url = git@github.com:idega/com.idega.block.web2.0.git
-[submodule "com.idega.cxf"]
-	path = com.idega.cxf
-	url = git@github.com:idega/com.idega.cxf.git
 [submodule "org.apache.myfaces"]
 	path = org.apache.myfaces
 	url = git@github.com:idega/org.apache.myfaces.git
