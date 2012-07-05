@@ -86,11 +86,6 @@
       <url>http://people.apache.org/repo/m2-incubating-repository/</url>
     </repository>
     <repository>
-      <id>idega1</id>
-      <name>idega maven2 repository</name>
-      <url>http://repository.idega.com/maven2/</url>
-    </repository>
-    <repository>
       <id>jahia</id>
       <name>jahia maven2 repository</name>
       <url>http://maven.jahia.org/maven2/</url>
