@@ -1048,7 +1048,7 @@
 	          </exclusions>
 	    </dependency>
 	    <dependency>
-	    	<groupId>net.sourceforge.htmlcleaner</groupId>
+	    	<groupId>htmlcleaner</groupId>
 	    	<artifactId>htmlcleaner</artifactId>
 	    	<version>${htmlcleaner-version}</version>
 	    	<type>jar</type>
@@ -1089,7 +1089,7 @@
     <dwr-dwr-noncla-version>3.0rc1</dwr-dwr-noncla-version>
     <flyingsaucer-core-renderer-version>R8pre2</flyingsaucer-core-renderer-version>
     <flyingsaucer-minium-version>R8pre2</flyingsaucer-minium-version>
-    <htmlcleaner-version>2.2</htmlcleaner-version>
+    <htmlcleaner-version>1.2</htmlcleaner-version>
     <itext-itext-xml-version>1.02</itext-itext-xml-version>
     <itextpdf-itext-paulo-version>155</itextpdf-itext-paulo-version>
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
@@ -1102,9 +1102,9 @@
     <junit-junit-version>4.4</junit-junit-version>
     <lucene-lucene-core-version>2.9.4</lucene-lucene-core-version>
     <maven-wagon-http-lightweight-version>1.0-alpha-3</maven-wagon-http-lightweight-version>
-    <net.sf.ehcache-ehcache-core-version>2.4.5</net.sf.ehcache-ehcache-core-version>
+    <net.sf.ehcache-ehcache-core-version>2.4.7</net.sf.ehcache-ehcache-core-version>
     <net.sf.ehcache-ehcache-web-version>2.0.3</net.sf.ehcache-ehcache-web-version>
-    <org.apache.jackrabbit-version>2.2.10</org.apache.jackrabbit-version>
+    <org.apache.jackrabbit-version>2.4.2</org.apache.jackrabbit-version>
     <org.apache.poi-poi-version>3.7</org.apache.poi-poi-version>
     <org.apache.ws.commons.neethi-neethi-version>2.0</org.apache.ws.commons.neethi-neethi-version>
     <org.hibernate-hibernate-annotations-version>3.4.0.GA</org.hibernate-hibernate-annotations-version>
