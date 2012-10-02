@@ -1070,7 +1070,7 @@
     <commons-collections-commons-collections-version>3.2</commons-collections-commons-collections-version>
     <commons-dbcp-commons-dbcp-version>1.2.1</commons-dbcp-commons-dbcp-version>
     <commons-digester-commons-digester-version>1.8.1</commons-digester-commons-digester-version>
-    <commons-fileupload-commons-fileupload-version>1.2</commons-fileupload-commons-fileupload-version>
+    <commons-fileupload-commons-fileupload-version>1.2.2</commons-fileupload-commons-fileupload-version>
     <commons-httpclient-commons-httpclient-version>3.1</commons-httpclient-commons-httpclient-version>
     <commons-jxpath-commons-jxpath-version>1.2-patched</commons-jxpath-commons-jxpath-version>
     <commons-logging-commons-logging-api-version>1.0.4</commons-logging-commons-logging-api-version>
