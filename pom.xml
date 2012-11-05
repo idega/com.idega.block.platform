@@ -126,6 +126,16 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+        <id>Kung_Futers</id>
+        <url>http://maven.kungfuters.org/content/groups/public/</url>
+        <releases>
+           <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+     </repository>
   </repositories>
 
   <pluginRepositories>
