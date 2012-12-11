@@ -359,19 +359,7 @@
         </includes>
       </resource>
       <resource>
-        <directory>${basedir}/src/test/java</directory>
-        <includes>
-          <include>**/*.xml</include>
-        </includes>
-      </resource>
-      <resource>
-        <directory>${basedir}/src/test/java</directory>
-        <includes>
-          <include>**/*.hbm.xml</include>
-        </includes>
-      </resource>
-      <resource>
-        <directory>${basedir}/WEB-INF</directory>
+        <directory>${basedir}/META-INF</directory>
         <targetPath>META-INF</targetPath>
         <includes>
           <include>persistence.xml</include>
