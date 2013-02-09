@@ -397,8 +397,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.5</source>
-          <target>1.5</target>
+          <source>1.6</source>
+          <target>1.6</target>
         </configuration>
       </plugin>
       <plugin>
@@ -1062,7 +1062,7 @@
 	          </exclusions>
 	    </dependency>
 	    <dependency>
-	    	<groupId>htmlcleaner</groupId>
+	    	<groupId>net.sourceforge.htmlcleaner</groupId>
 	    	<artifactId>htmlcleaner</artifactId>
 	    	<version>${htmlcleaner-version}</version>
 	    	<type>jar</type>
@@ -1112,7 +1112,7 @@
     <dwr-dwr-noncla-version>3.0rc1</dwr-dwr-noncla-version>
     <flyingsaucer-core-renderer-version>R8pre2</flyingsaucer-core-renderer-version>
     <flyingsaucer-minium-version>R8pre2</flyingsaucer-minium-version>
-    <htmlcleaner-version>1.2</htmlcleaner-version>
+    <htmlcleaner-version>2.2</htmlcleaner-version>
     <com.itextpdf-itextpdf-version>5.3.4</com.itextpdf-itextpdf-version>
     <com.itextpdf.tool-xmlworker-version>1.2.1</com.itextpdf.tool-xmlworker-version>
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
