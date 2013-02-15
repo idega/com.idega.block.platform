@@ -380,7 +380,6 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
-	  <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding> 
         </configuration>
       </plugin>
       <plugin>
