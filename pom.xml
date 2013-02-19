@@ -156,6 +156,16 @@
           <enabled>false</enabled>
         </snapshots>
      </repository>
+     <repository>
+     	<id>IOS repository</id>
+      	<url>http://repository.idega.com/maven2/</url>
+      	<releases>
+           <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>false</enabled>
+        </snapshots>
+     </repository>
   </repositories>
 
   <pluginRepositories>
@@ -752,9 +762,9 @@
           </exclusions>
         </dependency>
         <dependency>
-          <groupId>jdom</groupId>
+          <groupId>org.jdom</groupId>
           <artifactId>jdom</artifactId>
-          <version>${jdom-jdom-version}</version>
+          <version>${org.jdom-jdom-version}</version>
           <type>jar</type>
           <exclusions>
             <exclusion>
@@ -1124,7 +1134,7 @@
     <javax.servlet.jsp-javax.servlet.jsp-api-version>2.2.1</javax.servlet.jsp-javax.servlet.jsp-api-version>
     <javax.ws.rs-version>1.1</javax.ws.rs-version>
     <jaxen-jaxen-version>1.0-FCS</jaxen-jaxen-version>
-    <jdom-jdom-version>1.0</jdom-jdom-version>
+    <org.jdom-jdom-version>2.0.4</org.jdom-jdom-version>
     <jug-jug-version>1.1.2</jug-jug-version>
     <junit-junit-version>4.4</junit-junit-version>
     <lucene-lucene-core-version>2.9.4</lucene-lucene-core-version>
