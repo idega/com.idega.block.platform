@@ -1050,7 +1050,7 @@
 	    <dependency>
 	      <groupId>javax.mail</groupId>
 	      <artifactId>mail</artifactId>
-	      <version>${javax.mail-version}</version>
+	      <version>${javax.mail-mail-version}</version>
 	      <type>jar</type>
 	    </dependency>
 		<dependency>
@@ -1129,7 +1129,7 @@
     <javax.annotation-jsr250-api-version>1.0</javax.annotation-jsr250-api-version>
     <javax.el-javax.el-api-version>2.2.2</javax.el-javax.el-api-version>
     <javax.jcr-jcr-version>2.0</javax.jcr-jcr-version>
-    <javax.mail-version>1.4.2</javax.mail-version>
+    <javax.mail-mail-version>1.4.6</javax.mail-mail-version>
     <javax.servlet-servlet-api-version>2.5</javax.servlet-servlet-api-version>
     <javax.servlet.jsp-javax.servlet.jsp-api-version>2.2.1</javax.servlet.jsp-javax.servlet.jsp-api-version>
     <javax.ws.rs-version>1.1</javax.ws.rs-version>
@@ -1141,7 +1141,7 @@
     <maven-wagon-http-lightweight-version>1.0-alpha-3</maven-wagon-http-lightweight-version>
     <net.sf.ehcache-ehcache-core-version>2.4.7</net.sf.ehcache-ehcache-core-version>
     <net.sf.ehcache-ehcache-web-version>2.0.4</net.sf.ehcache-ehcache-web-version>
-    <org.apache.jackrabbit-version>2.4.2</org.apache.jackrabbit-version>
+    <org.apache.jackrabbit-version>2.6.0</org.apache.jackrabbit-version>
     <org.apache.poi-poi-version>3.7</org.apache.poi-poi-version>
     <org.apache.ws.commons.neethi-neethi-version>2.0</org.apache.ws.commons.neethi-neethi-version>
     <org.hibernate-hibernate-annotations-version>3.4.0.GA</org.hibernate-hibernate-annotations-version>
