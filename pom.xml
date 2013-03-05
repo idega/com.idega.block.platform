@@ -392,7 +392,7 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
-          <encoding>iso-8859-1</encoding>
+          <encoding>utf-8</encoding>
         </configuration>
       </plugin>
       <plugin>
@@ -1066,7 +1066,7 @@
   
   <properties>
    
-   <project.build.sourceEncoding>iso-8859-1</project.build.sourceEncoding>
+   <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
    
     <!-- common used libraries versions. construct property as: <group id>-<artifact id>-version -->
     
