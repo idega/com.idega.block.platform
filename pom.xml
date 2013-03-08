@@ -1142,15 +1142,15 @@
 		    <type>jar</type>
 		</dependency>
 	    <dependency>
-	      <groupId>com.itextpdf</groupId>
-	      <artifactId>itextpdf</artifactId>
-	      <version>${com.itextpdf-itextpdf-version}</version>
+	      <groupId>itextpdf</groupId>
+		  <artifactId>itext-paulo</artifactId>
+		  <version>${itextpdf-itext-paulo-version}</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
-	      <groupId>com.itextpdf.tool</groupId>
-	      <artifactId>xmlworker</artifactId>
-	      <version>${com.itextpdf.tool-xmlworker-version}</version>
+	      <groupId>itext</groupId>
+	      <artifactId>itext-xml</artifactId>
+	      <version>${itext-itext-xml-version}</version>
 	      <type>jar</type>
 	    </dependency>
 	    <dependency>
@@ -1217,8 +1217,8 @@
     <flyingsaucer-core-renderer-version>R8pre2</flyingsaucer-core-renderer-version>
     <flyingsaucer-minium-version>R8pre2</flyingsaucer-minium-version>
     <htmlcleaner-version>2.2</htmlcleaner-version>
-    <com.itextpdf-itextpdf-version>5.3.4</com.itextpdf-itextpdf-version>
-    <com.itextpdf.tool-xmlworker-version>1.2.1</com.itextpdf.tool-xmlworker-version>
+    <itext-itext-xml-version>1.02</itext-itext-xml-version>
+	<itextpdf-itext-paulo-version>155</itextpdf-itext-paulo-version>
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
     <javax.annotation-jsr250-api-version>1.0</javax.annotation-jsr250-api-version>
     <javax.el-javax.el-api-version>2.2.2</javax.el-javax.el-api-version>
