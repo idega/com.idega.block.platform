@@ -1227,7 +1227,7 @@
     <javax.servlet-servlet-api-version>2.5</javax.servlet-servlet-api-version>
     <javax.servlet.jsp-javax.servlet.jsp-api-version>2.2.1</javax.servlet.jsp-javax.servlet.jsp-api-version>
     <javax.ws.rs-version>1.1</javax.ws.rs-version>
-    <jaxen-jaxen-version>1.0-FCS</jaxen-jaxen-version>
+    <jaxen-jaxen-version>1.1.4</jaxen-jaxen-version>
     <org.jdom-jdom-version>2.0.4</org.jdom-jdom-version>
     <jug-jug-version>1.1.2</jug-jug-version>
     <junit-junit-version>4.8.1</junit-junit-version>
