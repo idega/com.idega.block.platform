@@ -595,12 +595,6 @@
   		  <artifactId>com.idega.hibernate</artifactId>
   		  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
-<!-- 	  <exclusions>
-            <exclusion>
-              <groupId>org.hibernate</groupId>
-              <artifactId>hibernate-commons-annotations</artifactId>
-            </exclusion>
-          </exclusions> -->
 	    </dependency>
 	    <dependency>
 	      <groupId>com.idega.block.platform</groupId>
@@ -832,56 +826,6 @@
           <version>${lucene-lucene-core-version}</version>
            <type>jar</type>
         </dependency>
-
-        <!-- <dependency>
-          <groupId>org.hibernate</groupId>
-          <artifactId>hibernate-annotations</artifactId>
-          <version>${org.hibernate-hibernate-annotations-version}</version>
-          <type>jar</type>
-          <exclusions>
-            <exclusion>
-              <groupId>xerces</groupId>
-              <artifactId>xercesImpl</artifactId>
-            </exclusion>
-            <exclusion>
-              <groupId>xml-apis</groupId>
-              <artifactId>xml-apis</artifactId>
-            </exclusion>
-            <exclusion>
-              <groupId>org.hibernate</groupId>
-              <artifactId>hibernate-core</artifactId>
-            </exclusion>
-            <exclusion>
-          		<groupId>org.slf4j</groupId>
-      		    <artifactId>slf4j-api</artifactId>
-       		</exclusion>
-       		<exclusion>
-          		<groupId>org.slf4j</groupId>
-          		<artifactId>slf4j-log4j12</artifactId>
-        	</exclusion>
-          </exclusions>
-        </dependency>
-        <dependency>
-          <groupId>org.hibernate</groupId>
-          <artifactId>hibernate-commons-annotations</artifactId>
-          <version>${org.hibernate-hibernate-commons-annotations-version}</version>
-          <type>jar</type>
-          <exclusions>
-            <exclusion>
-              <groupId>xerces</groupId>
-              <artifactId>xercesImpl</artifactId>
-            </exclusion>
-            <exclusion>
-              <groupId>xml-apis</groupId>
-              <artifactId>xml-apis</artifactId>
-            </exclusion>
-            <exclusion>
-              <groupId>org.hibernate</groupId>
-              <artifactId>hibernate</artifactId>
-            </exclusion>
-          </exclusions>
-        </dependency> -->
-
         <dependency>
           <groupId>org.hibernate</groupId>
           <artifactId>hibernate-entitymanager</artifactId>
@@ -896,18 +840,6 @@
               <groupId>xml-apis</groupId>
               <artifactId>xml-apis</artifactId>
             </exclusion>
-<!--             <exclusion>
-              <groupId>org.hibernate</groupId>
-              <artifactId>hibernate-core</artifactId>
-            </exclusion> -->
-           <!--  <exclusion>
-              <groupId>org.hibernate</groupId>
-              <artifactId>hibernate-commons-annotations</artifactId>
-            </exclusion>
-            <exclusion>
-              <groupId>org.hibernate</groupId>
-              <artifactId>hibernate-annotations</artifactId>
-            </exclusion> -->
             <exclusion>
           		<groupId>org.slf4j</groupId>
       		    <artifactId>slf4j-api</artifactId>
@@ -930,18 +862,6 @@
             </exclusion>
           </exclusions>
         </dependency>
-        <!-- <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring</artifactId>
-            <version>${org.springframework-spring-version}</version>
-            <type>jar</type>
-            <exclusions>
-            <exclusion>
-              <groupId>xerces</groupId>
-              <artifactId>xercesImpl</artifactId>
-            </exclusion>
-          </exclusions>
-         </dependency> -->
 		<dependency>
 		  <groupId>org.springframework</groupId>
 		  <artifactId>spring-test</artifactId>
