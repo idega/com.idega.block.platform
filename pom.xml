@@ -851,6 +851,29 @@
           </exclusions>
         </dependency>
         <dependency>
+           <groupId>org.hibernate</groupId>
+           <artifactId>hibernate-ehcache</artifactId>
+           <version>${org.hibernate-hibernate-ehcache-version}</version>
+           <exclusions>
+             <exclusion>
+               <groupId>xerces</groupId>
+               <artifactId>xercesImpl</artifactId>
+             </exclusion>
+             <exclusion>
+               <groupId>xml-apis</groupId>
+               <artifactId>xml-apis</artifactId>
+             </exclusion>
+             <exclusion>
+           		<groupId>org.slf4j</groupId>
+       		    <artifactId>slf4j-api</artifactId>
+        		</exclusion>
+        		<exclusion>
+           		<groupId>org.slf4j</groupId>
+           		<artifactId>slf4j-log4j12</artifactId>
+         	</exclusion>
+           </exclusions>
+        </dependency>
+        <dependency>
           <groupId>maven</groupId>
           <artifactId>wagon-http-lightweight</artifactId>
           <version>${maven-wagon-http-lightweight-version}</version>
@@ -1162,6 +1185,7 @@
     <org.hibernate-hibernate-annotations-version>3.5.6-Final</org.hibernate-hibernate-annotations-version>
     <org.hibernate-hibernate-entitymanager-version>4.1.9.Final</org.hibernate-hibernate-entitymanager-version>
     <org.hibernate-hibernate-core-version>4.1.9.Final</org.hibernate-hibernate-core-version>
+	<org.hibernate-hibernate-ehcache-version>4.2.0.Final</org.hibernate-hibernate-ehcache-version>
     <org.slf4j-slf4j-api-version>1.6.1</org.slf4j-slf4j-api-version>
     <org.springframework.version>3.2.1.RELEASE</org.springframework.version>
     <stax-stax-api-version>1.0.1</stax-stax-api-version>
