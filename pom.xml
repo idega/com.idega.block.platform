@@ -415,19 +415,18 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>2.1</version>
-        <!-- version 2.1 of jar plugin does not add default Implementation-* and Specification-* entries anymore
+        <version>2.4</version>
+        <!-- version 2.1 of jar plugin does not add default Implementation-* and Specification-* entries anymore -->
         <configuration>
           <archive>
             <manifestEntries>
-              <Implementation-Title>${pom.artifactId}</Implementation-Title>
-              <Implementation-Version>${pom.version}</Implementation-Version>
-              <Implementation-Vendor>${pom.organization.name}</Implementation-Vendor>
-              <Specification-Title>${pom.name}</Specification-Title>
+              <Implementation-Title>${project.artifactId}</Implementation-Title>
+              <Implementation-Version>${project.version}</Implementation-Version>
+              <Implementation-Vendor>${project.organization.name}</Implementation-Vendor>
+              <Specification-Title>${project.name}</Specification-Title>
             </manifestEntries>
           </archive>
         </configuration>
-         -->
       </plugin>
   <plugin>
     <artifactId>maven-release-plugin</artifactId>
