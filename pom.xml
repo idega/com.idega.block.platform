@@ -135,7 +135,17 @@
         <snapshots>
           <enabled>false</enabled>
         </snapshots>
-     </repository>
+    </repository>
+    <repository>
+      <id>IOS Software repository</id>
+      <url>http://repository.idega.com/maven2/</url>
+      <releases>
+		<enabled>true</enabled>
+      </releases>
+      <snapshots>
+      	<enabled>true</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <pluginRepositories>
