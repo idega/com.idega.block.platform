@@ -157,7 +157,7 @@
         </snapshots>
      </repository>
      <repository>
-     	<id>IOS repository</id>
+     	<id>IOS Software repository</id>
       	<url>http://repository.idega.com/maven2/</url>
       	<releases>
            <enabled>true</enabled>
@@ -1157,9 +1157,9 @@
     <javax.mail-mail-version>1.4.6</javax.mail-mail-version>
     <javax.servlet-servlet-api-version>2.5</javax.servlet-servlet-api-version>
     <javax.servlet.jsp-javax.servlet.jsp-api-version>2.2.1</javax.servlet.jsp-javax.servlet.jsp-api-version>
-    <javax.ws.rs-version>1.1</javax.ws.rs-version>
+    <javax.ws.rs-version>1.1.1</javax.ws.rs-version>
     <jaxen-jaxen-version>1.1.4</jaxen-jaxen-version>
-    <org.jdom-jdom-version>2.0.4</org.jdom-jdom-version>
+    <jdom-jdom-version>1.0</jdom-jdom-version>
     <jug-jug-version>1.1.2</jug-jug-version>
     <junit-junit-version>4.8.1</junit-junit-version>
     <lucene-lucene-core-version>3.6.0</lucene-lucene-core-version>
@@ -1173,6 +1173,7 @@
     <org.hibernate-hibernate-entitymanager-version>4.1.9.Final</org.hibernate-hibernate-entitymanager-version>
     <org.hibernate-hibernate-core-version>4.1.9.Final</org.hibernate-hibernate-core-version>
 	<org.hibernate-hibernate-ehcache-version>4.2.0.Final</org.hibernate-hibernate-ehcache-version>
+	<org.jdom-jdom-version>2.0.4</org.jdom-jdom-version>
     <org.slf4j-slf4j-api-version>1.6.1</org.slf4j-slf4j-api-version>
     <org.springframework.version>3.2.1.RELEASE</org.springframework.version>
     <stax-stax-api-version>1.0.1</stax-stax-api-version>
