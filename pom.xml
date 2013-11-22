@@ -297,6 +297,10 @@
         <targetPath>WEB-INF</targetPath>
       </resource>
       <resource>
+      	<directory>${basedir}/target/generated-sources/axis2/wsdl2code/resources</directory>
+      	<targetPath>WEB-INF</targetPath>
+      </resource>
+      <resource>
         <directory>${basedir}/jsp</directory>
         <targetPath>jsp</targetPath>
       </resource>
