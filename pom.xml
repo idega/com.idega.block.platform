@@ -701,7 +701,7 @@
         <dependency>
           <groupId>net.sf.ehcache</groupId>
           <artifactId>ehcache-core</artifactId>
-          <version>${net.sf.ehcache-ehcache-core-version}</version>
+          <version>${net.sf.ehcache-ehcache-version}</version>
           <type>jar</type>
           <exclusions>
             <exclusion>
@@ -1155,7 +1155,7 @@
     <flyingsaucer-minium-version>R8pre2</flyingsaucer-minium-version>
     <htmlcleaner-version>2.2</htmlcleaner-version>
     <itext-itext-xml-version>1.02</itext-itext-xml-version>
-	  <itextpdf-itext-paulo-version>155</itextpdf-itext-paulo-version>
+	<itextpdf-itext-paulo-version>155</itextpdf-itext-paulo-version>
     <jasperreports-jasperreports-version>0.6.1</jasperreports-jasperreports-version>
     <javax.annotation-jsr250-api-version>1.0</javax.annotation-jsr250-api-version>
     <javax.el-javax.el-api-version>2.2.2</javax.el-javax.el-api-version>
@@ -1170,16 +1170,16 @@
     <junit-junit-version>4.8.1</junit-junit-version>
     <lucene-lucene-core-version>3.6.0</lucene-lucene-core-version>
     <maven-wagon-http-lightweight-version>1.0-alpha-3</maven-wagon-http-lightweight-version>
-    <net.sf.ehcache-ehcache-core-version>2.4.7</net.sf.ehcache-ehcache-core-version>
+    <net.sf.ehcache-ehcache-version>2.8.2</net.sf.ehcache-ehcache-version>
     <net.sf.ehcache-ehcache-web-version>2.0.4</net.sf.ehcache-ehcache-web-version>
-    <org.apache.jackrabbit-version>2.6.0</org.apache.jackrabbit-version>
+    <org.apache.jackrabbit-version>2.8.0</org.apache.jackrabbit-version>
     <org.apache.poi-poi-version>3.7</org.apache.poi-poi-version>
     <org.apache.ws.commons.neethi-neethi-version>2.0</org.apache.ws.commons.neethi-neethi-version>
-    <org.hibernate-hibernate-annotations-version>3.5.6-Final</org.hibernate-hibernate-annotations-version>
-    <org.hibernate-hibernate-entitymanager-version>4.2.8.Final</org.hibernate-hibernate-entitymanager-version>
-    <org.hibernate-hibernate-core-version>4.2.8.Final</org.hibernate-hibernate-core-version>
-	  <org.hibernate-hibernate-ehcache-version>4.2.8.Final</org.hibernate-hibernate-ehcache-version>
-	  <org.jdom-jdom-version>2.0.4</org.jdom-jdom-version>
+    <org.hibernate-hibernate-annotations-version>4.0.4.Final</org.hibernate-hibernate-annotations-version>
+    <org.hibernate-hibernate-entitymanager-version>4.3.5.Final</org.hibernate-hibernate-entitymanager-version>
+    <org.hibernate-hibernate-core-version>4.3.5.Final</org.hibernate-hibernate-core-version>
+	<org.hibernate-hibernate-ehcache-version>4.3.5.Final</org.hibernate-hibernate-ehcache-version>
+	<org.jdom-jdom-version>2.0.4</org.jdom-jdom-version>
     <org.slf4j-slf4j-api-version>1.6.1</org.slf4j-slf4j-api-version>
     <org.springframework.version>3.2.5.RELEASE</org.springframework.version>
     <stax-stax-api-version>1.0.1</stax-stax-api-version>
