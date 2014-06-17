@@ -54,7 +54,7 @@
       <name>Codehaus Maven Repository</name>
       <url>http://repository.codehaus.org/</url>
     </repository>
-    <repository>
+    <!--<repository>
     	<id>Sonatype Sourceforge</id>
     	<name>Sonatype Sourceforge repository for releases and snapshots</name>
 		<url>http://oss.sonatype.org/content/groups/sourceforge/</url>
@@ -64,8 +64,8 @@
 		<snapshots>
 			<enabled>true</enabled>
 		</snapshots>
-	</repository>
-	<repository>
+            </repository>-->
+    <repository>
       <id>ibiblio</id>
       <name>ibiblio repository</name>
       <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
