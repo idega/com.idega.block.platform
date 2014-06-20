@@ -57,7 +57,7 @@
     <!--<repository>
     	<id>Sonatype Sourceforge</id>
     	<name>Sonatype Sourceforge repository for releases and snapshots</name>
-		<url>http://oss.sonatype.org/content/groups/sourceforge/</url>
+		<url>https://oss.sonatype.org/content/groups/sourceforge/</url>
 		<releases>
 			<enabled>true</enabled>
 		</releases>
