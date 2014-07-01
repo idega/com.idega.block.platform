@@ -72,15 +72,15 @@
     <repository>
     	<id>Sonatype Sourceforge</id>
     	<name>Sonatype Sourceforge repository for releases and snapshots</name>
-		<url>http://oss.sonatype.org/content/groups/sourceforge/</url>
-		<releases>
-			<enabled>true</enabled>
-		</releases>
-		<snapshots>
-			<enabled>true</enabled>
-		</snapshots>
-	</repository>
-	<repository>
+		  <url>https://oss.sonatype.org/content/groups/sourceforge/</url>
+		  <releases>
+			 <enabled>true</enabled>
+		  </releases>
+		  <snapshots>
+			 <enabled>true</enabled>
+		  </snapshots>
+    </repository>
+    <repository>
       <id>ibiblio</id>
       <name>ibiblio repository</name>
       <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
