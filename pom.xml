@@ -1178,6 +1178,7 @@
     <org.hibernate-hibernate-annotations-version>4.0.4.Final</org.hibernate-hibernate-annotations-version>
     <org.hibernate-hibernate-entitymanager-version>4.2.8.Final</org.hibernate-hibernate-entitymanager-version>
     <org.hibernate-hibernate-core-version>4.2.8.Final</org.hibernate-hibernate-core-version>
+    <org.hibernate-hibernate-search-version>4.3.0.Final</org.hibernate-hibernate-search-version>
 	<org.hibernate-hibernate-ehcache-version>4.2.8.Final</org.hibernate-hibernate-ehcache-version>
 	<org.jdom-jdom-version>2.0.5</org.jdom-jdom-version>
     <org.slf4j-slf4j-api-version>1.6.1</org.slf4j-slf4j-api-version>
