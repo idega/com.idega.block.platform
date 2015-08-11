@@ -977,20 +977,22 @@
 		  <artifactId>spring-web</artifactId>
 		  <version>${org.springframework.version}</version>
 		</dependency>
-         <dependency>
-          <groupId>dwr</groupId>
-          <artifactId>dwr</artifactId>
-          <version>${dwr-dwr-version}</version>
-          <type>jar</type>
-          <exclusions>
-            <exclusion>
-              <groupId>xml-apis</groupId>
-              <artifactId>xml-apis</artifactId>
-            </exclusion>
-          </exclusions>
-        </dependency>
-        <dependency>
-          <groupId>dwr</groupId>
+
+		<!-- Hiding somewhere in IOS Software repository -->
+		<dependency>
+			<groupId>org.directwebremoting</groupId>
+			<artifactId>dwr</artifactId>
+			<version>${dwr-dwr-version}</version>
+			<type>jar</type>
+			<exclusions>
+				<exclusion>
+					<groupId>xml-apis</groupId>
+					<artifactId>xml-apis</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+        <!-- <dependency>
+          <groupId>org.directwebremoting</groupId>
           <artifactId>dwr-noncla</artifactId>
           <version>${dwr-dwr-noncla-version}</version>
           <type>jar</type>
@@ -1000,7 +1002,7 @@
               <artifactId>xml-apis</artifactId>
             </exclusion>
           </exclusions>
-        </dependency>
+        </dependency> -->
         <dependency>
           <groupId>commons-digester</groupId>
           <artifactId>commons-digester</artifactId>
