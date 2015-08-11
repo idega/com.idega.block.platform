@@ -146,7 +146,7 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-    <repository>
+<!--     <repository>
         <id>Kung_Futers</id>
         <url>http://maven.kungfuters.org/content/groups/public/</url>
         <releases>
@@ -155,10 +155,10 @@
         <snapshots>
           <enabled>false</enabled>
         </snapshots>
-     </repository>
+     </repository> -->
      <repository>
      	<id>IOS Software repository</id>
-      	<url>http://repository.idega.com/maven2/</url>
+      	<url>http://repository.idega.com/maven2</url>
       	<releases>
            <enabled>true</enabled>
            <updatePolicy>always</updatePolicy>
