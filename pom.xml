@@ -1157,7 +1157,7 @@
     <commons-beanutils-commons-beanutils-version>1.7.0</commons-beanutils-commons-beanutils-version>
     <commons-codec-commons-codec-version>1.5</commons-codec-commons-codec-version>
     <commons-collections-commons-collections-version>3.2</commons-collections-commons-collections-version>
-    <commons-dbcp-commons-dbcp-version>1.2.1</commons-dbcp-commons-dbcp-version>
+    <commons-dbcp-commons-dbcp-version>1.4</commons-dbcp-commons-dbcp-version>
     <commons-digester-commons-digester-version>1.8.1</commons-digester-commons-digester-version>
     <commons-fileupload-commons-fileupload-version>1.2.2</commons-fileupload-commons-fileupload-version>
     <commons-httpclient-commons-httpclient-version>3.1</commons-httpclient-commons-httpclient-version>
