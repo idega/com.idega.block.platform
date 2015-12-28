@@ -265,12 +265,6 @@
       <type>jar</type>
     </dependency>
     
-    <dependency>
-      <groupId>xml-apis</groupId>
-      <artifactId>xml-apis</artifactId>
-      <version>${xml-apis-xml-apis-version}</version>
-      <type>jar</type>
-    </dependency>
    <!-- XML APIs end -->
    
    <!-- These dependencies are required for ehCache -->
