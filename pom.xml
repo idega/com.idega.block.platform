@@ -43,31 +43,10 @@
   </modules>
   
   <repositories>
-	<repository>
-          <id>codehausSnapshots</id>
-          <name>Codehaus Snapshots</name>
-          <releases>
-            <enabled>false</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-            <checksumPolicy>fail</checksumPolicy>
-          </snapshots>
-          <url>http://snapshots.maven.codehaus.org/maven2</url>
-          <layout>default</layout>
-        </repository>
     <repository>
       <id>java.net2</id>
       <name>Sun Java Net Maven 2 Repository</name>
       <url>http://download.java.net/maven/2/</url>
-    </repository>
-    <repository>
-      <id>codehaus.org</id>
-      <name>Codehaus Maven Repository</name>
-      <url>http://repository.codehaus.org/</url>
     </repository>
     <repository>
     	<id>Sonatype Sourceforge</id>
@@ -83,7 +62,7 @@
     <repository>
       <id>ibiblio</id>
       <name>ibiblio repository</name>
-      <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+      <url>http://maven.ibiblio.org/maven2/</url>
     </repository>
     <repository>
       <id>jboss</id>
@@ -170,6 +149,14 @@
         </snapshots>
         <layout>default</layout>
      </repository>
+    <repository>
+      <!-- Please consider setting up your own on-site repository proxy such as with Nexus and pointing the url element below at that instead -->
+      <id>oss-sonatype-snapshots</id>
+      <name>OSS Sonatype Snapshots Repository</name>
+	  <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases><enabled>false</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
   </repositories>
 
   <pluginRepositories>
