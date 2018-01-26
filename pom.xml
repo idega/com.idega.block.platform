@@ -117,7 +117,7 @@
      </repository>
      <repository>
         <id>Google Code</id>
-        <url>http://code.google.com/p/google-maven-repository/</url>
+        <url>https://oss.sonatype.org/content/groups/google/</url>
         <releases>
            <enabled>true</enabled>
         </releases>
