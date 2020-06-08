@@ -10,7 +10,7 @@
   </organization>
   <name>Base com.idega.block.platform Project</name>
   <description>Parent of all com.idega.block.addon group modules</description>
-  
+
   <modules>
   	<module>com.idega.block.login</module>
 	<module>com.idega.core</module>
@@ -41,7 +41,7 @@
 	<module>com.idega.developer</module>
 	<module>com.idega.jackrabbit</module>
   </modules>
-  
+
   <repositories>
   	<repository>
   		<id>central.maven.org</id>
@@ -103,7 +103,7 @@
     <repository>
         <id>WSO2</id>
         <url>http://dist.wso2.org/maven2/</url>
- 		<name>WSO2</name>   
+ 		<name>WSO2</name>
     </repository>
     <repository>
         <id>MVN Repository</id>
@@ -113,7 +113,7 @@
         </releases>
         <snapshots>
           <enabled>false</enabled>
-        </snapshots>        
+        </snapshots>
      </repository>
      <repository>
         <id>Google Code</id>
@@ -123,7 +123,7 @@
         </releases>
         <snapshots>
           <enabled>false</enabled>
-        </snapshots>        
+        </snapshots>
      </repository>
      <!-- <repository>
       <id>modularity-releases</id>
@@ -213,7 +213,7 @@
       </notifier>
     </notifiers>
  </ciManagement>
-  
+
   <developers>
 		<developer>
 			<name>Tryggvi Larusson</name>
@@ -238,7 +238,7 @@
 		<type>jar</type>
 		<scope>provided</scope>
 	</dependency>
-    
+
     <!-- XML APIs start
     Xerces and Xalan both depend on the serializer jar that is shipped with Xalan (and has the same version).
     Both also use the xml-api jar (Xerces implements it). So make sure to use only compatible versions of these jars -->
@@ -248,23 +248,23 @@
       <version>${xerces-xercesImpl-version}</version>
       <type>jar</type>
     </dependency>
-    
+
     <dependency>
       <groupId>xalan</groupId>
       <artifactId>xalan</artifactId>
       <version>${xalan-version}</version>
       <type>jar</type>
     </dependency>
-    
+
     <dependency>
       <groupId>xalan</groupId>
       <artifactId>xalan-serializer</artifactId>
       <version>${xalan-version}</version>
       <type>jar</type>
     </dependency>
-    
+
    <!-- XML APIs end -->
-   
+
    <!-- These dependencies are required for ehCache -->
    	<dependency>
       <groupId>org.slf4j</groupId>
@@ -404,7 +404,7 @@
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-jar-plugin</artifactId>
 			<version>2.4</version>
-			<!-- version 2.1 of jar plugin does not add default Implementation-* and 
+			<!-- version 2.1 of jar plugin does not add default Implementation-* and
 				Specification-* entries anymore -->
 			<configuration>
 				<archive>
@@ -663,7 +663,7 @@
   	 	  <version>5.0.0-SNAPSHOT</version>
 	      <type>jar</type>
 	    </dependency>
-	    
+
         <!-- 3rd party libraries dependencies with exclusions -->
         <dependency>
           <groupId>commons-dbcp</groupId>
@@ -918,7 +918,7 @@
 		  <artifactId>spring-beans</artifactId>
 		  <version>${org.springframework.version}</version>
 		</dependency>
-		<!-- 
+		<!--
 		    Aspect Oriented Programming (AOP) Framework (depends on spring-core, spring-beans)
 		    Define this if you use Spring AOP APIs (org.springframework.aop.*)
 		-->
@@ -1124,22 +1124,77 @@
 	    	<version>${htmlcleaner-version}</version>
 	    	<type>jar</type>
    		</dependency>
-	    <!-- GSON from Google -->
+	    <!--Google -->
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+          <version>${com-google-code-gson-version}</version>
+          <type>jar</type>
+      </dependency>
+      <dependency>
+  			<groupId>com.google.http-client</groupId>
+  			<artifactId>google-http-client-jackson2</artifactId>
+  			<version>1.25.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.google.apis</groupId>
+  			<artifactId>google-api-services-oauth2</artifactId>
+  			<version>v2-rev157-1.25.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.google.oauth-client</groupId>
+  			<artifactId>google-oauth-client-servlet</artifactId>
+  			<version>1.25.0</version>
+  			<exclusions>
+  				<exclusion>
+  					<groupId>javax.servlet</groupId>
+  					<artifactId>servlet-api</artifactId>
+  				</exclusion>
+  			</exclusions>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.google.apis</groupId>
+  			<artifactId>google-api-services-drive</artifactId>
+  			<version>v2-rev393-1.25.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.google.apis</groupId>
+  			<artifactId>google-api-services-youtube</artifactId>
+  			<version>v3-rev222-1.25.0</version>
+  		</dependency>
+      <dependency>
+        <groupId>com.google.api-client</groupId>
+        <artifactId>google-walletobjects</artifactId>
+        <version>v1-rev_20200326-java</version>
+      </dependency>
+      <dependency>
+  			<groupId>com.google.apis</groupId>
+  			<artifactId>google-api-services-calendar</artifactId>
+  			<version>v3-rev411-1.25.0</version>
+  		</dependency>
+      <!-- https://mvnrepository.com/artifact/com.googlecode.jsontoken/jsontoken -->
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${com-google-code-gson-version}</version>
-            <type>jar</type>
+            <groupId>com.googlecode.jsontoken</groupId>
+            <artifactId>jsontoken</artifactId>
+            <version>1.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+      <!-- End Google -->
+
+      <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20180813</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
-  
+
   <properties>
-   
+
    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-   
+
     <!-- common used libraries versions. construct property as: <group id>-<artifact id>-version -->
-    
+
     <!-- KEEP ALPHABETICAL ORDER PLS -->
     <antlr-antlr-version>2.7.6</antlr-antlr-version>
     <axis-axis-version>1.4</axis-axis-version>
@@ -1203,10 +1258,10 @@
     <wss4j-wss4j-version>1.5.9</wss4j-wss4j-version>
     <xerces-xercesImpl-version>2.9.1</xerces-xercesImpl-version>
     <xml-apis-xml-apis-version>1.3.04</xml-apis-xml-apis-version>
-    <xalan-version>2.7.1</xalan-version>   
+    <xalan-version>2.7.1</xalan-version>
     <xmlbeans-xbean-version>1.0.3</xmlbeans-xbean-version>
     <xpp3-xpp3-version>1.1.3.3</xpp3-xpp3-version>
     <maven.javadoc.skip>true</maven.javadoc.skip>
   </properties>
-  
+
 </project>

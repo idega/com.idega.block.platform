@@ -1,84 +1,112 @@
 [submodule "com.idega.block.process"]
 	path = com.idega.block.process
 	url = git@github.com:idega/com.idega.block.process.git
+	ignore = all
 [submodule "com.idega.block.rss"]
 	path = com.idega.block.rss
 	url = git@github.com:idega/com.idega.block.rss.git
+	ignore = all
 [submodule "com.idega.block.navigation"]
 	path = com.idega.block.navigation
 	url = git@github.com:idega/com.idega.block.navigation.git
+	ignore = all
 [submodule "com.idega.user"]
 	path = com.idega.user
 	url = git@github.com:idega/com.idega.user.git
+	ignore = all
 [submodule "com.idega.workspace"]
 	path = com.idega.workspace
 	url = git@github.com:idega/com.idega.workspace.git
+	ignore = all
 [submodule "com.idega.setup"]
 	path = com.idega.setup
 	url = git@github.com:idega/com.idega.setup.git
+	ignore = all
 [submodule "com.idega.block.entity"]
 	path = com.idega.block.entity
 	url = git@github.com:idega/com.idega.block.entity.git
+	ignore = all
 [submodule "com.idega.block.process.webservice"]
 	path = com.idega.block.process.webservice
 	url = git@github.com:idega/com.idega.block.process.webservice.git
+	ignore = all
 [submodule "com.idega.graphics"]
 	path = com.idega.graphics
 	url = git@github.com:idega/com.idega.graphics.git
+	ignore = all
 [submodule "com.idega.builder"]
 	path = com.idega.builder
 	url = git@github.com:idega/com.idega.builder.git
+	ignore = all
 [submodule "com.idega.dwr"]
 	path = com.idega.dwr
 	url = git@github.com:idega/com.idega.dwr.git
+	ignore = all
 [submodule "com.idega.block.article"]
 	path = com.idega.block.article
 	url = git@github.com:idega/com.idega.block.article.git
+	ignore = all
 [submodule "com.idega.developer"]
 	path = com.idega.developer
 	url = git@github.com:idega/com.idega.developer.git
+	ignore = all
 [submodule "com.idega.webface"]
 	path = com.idega.webface
 	url = git@github.com:idega/com.idega.webface.git
+	ignore = all
 [submodule "com.idega.block.web2.0"]
 	path = com.idega.block.web2.0
 	url = git@github.com:idega/com.idega.block.web2.0.git
+	ignore = all
 [submodule "org.apache.myfaces"]
 	path = org.apache.myfaces
 	url = git@github.com:idega/org.apache.myfaces.git
+	ignore = all
 [submodule "com.idega.block.login"]
 	path = com.idega.block.login
 	url = git@github.com:idega/com.idega.block.login.git
+	ignore = all
 [submodule "com.idega.content"]
 	path = com.idega.content
 	url = git@github.com:idega/com.idega.content.git
+	ignore = all
 [submodule "com.idega.hibernate"]
 	path = com.idega.hibernate
 	url = git@github.com:idega/com.idega.hibernate.git
+	ignore = all
 [submodule "com.idega.block.media"]
 	path = com.idega.block.media
 	url = git@github.com:idega/com.idega.block.media.git
+	ignore = all
 [submodule "com.idega.core"]
 	path = com.idega.core
 	url = git@github.com:idega/com.idega.core.git
+	ignore = all
 [submodule "com.idega.springframework"]
 	path = com.idega.springframework
 	url = git@github.com:idega/com.idega.springframework.git
+	ignore = all
 [submodule "com.idega.manager"]
 	path = com.idega.manager
 	url = git@github.com:idega/com.idega.manager.git
+	ignore = all
 [submodule "com.idega.faces"]
 	path = com.idega.faces
 	url = git@github.com:idega/com.idega.faces.git
+	ignore = all
 [submodule "com.idega.multidomain"]
 	path = com.idega.multidomain
 	url = git@github.com:idega/com.idega.multidomain.git
+	ignore = all
 [submodule "org.apache.axis"]
 	path = org.apache.axis
 	url = git@github.com:idega/org.apache.axis.git
+	ignore = all
 [submodule "com.idega.block.image"]
 	path = com.idega.block.image
 	url = git@github.com:idega/com.idega.block.image.git
+	ignore = all
 [submodule "com.idega.jackrabbit"]
 	path = com.idega.jackrabbit
 	url = git@github.com:idega/com.idega.jackrabbit.git
+	ignore = all
