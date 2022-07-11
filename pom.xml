@@ -258,7 +258,7 @@
 
     <dependency>
       <groupId>xalan</groupId>
-      <artifactId>xalan-serializer</artifactId>
+      <artifactId>serializer</artifactId>
       <version>${xalan-version}</version>
       <type>jar</type>
     </dependency>
@@ -1258,7 +1258,7 @@
     <wss4j-wss4j-version>1.5.9</wss4j-wss4j-version>
     <xerces-xercesImpl-version>2.9.1</xerces-xercesImpl-version>
     <xml-apis-xml-apis-version>1.3.04</xml-apis-xml-apis-version>
-    <xalan-version>2.7.1</xalan-version>
+    <xalan-version>2.7.2</xalan-version>
     <xmlbeans-xbean-version>1.0.3</xmlbeans-xbean-version>
     <xpp3-xpp3-version>1.1.3.3</xpp3-xpp3-version>
     <maven.javadoc.skip>true</maven.javadoc.skip>
